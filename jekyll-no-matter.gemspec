@@ -1,6 +1,6 @@
 # coding: utf-8
 
-require 'jekyll-no-matter'
+require File.join(File.dirname(__FILE__), "lib", "jekyll-no-matter")
 
 Gem::Specification.new do |s|
   s.name    = "jekyll-no-matter"
